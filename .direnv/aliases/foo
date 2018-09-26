@@ -1,0 +1,2 @@
+#!/usr/bin/env bash -e
+curl -x socks5h://localhost:$DATOMIC_SOCKS_PORT http://entry.$DATOMIC_SYSTEM.$DATOMIC_REGION.datomic.net:8182/
